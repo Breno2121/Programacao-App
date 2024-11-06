@@ -63,7 +63,6 @@ function deletarVeiculo(id: String){
   listaVeiculos = listaVeiculos.filter(veiculo => veiculo.getid() !== id);
   render()
 }
-
 function irpagdetalhes(id: String) {
   (window as any).bancoAPI.irpagdetalhes(id);
 }
