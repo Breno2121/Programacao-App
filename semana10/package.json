@@ -21,6 +21,7 @@
     "@electron-forge/plugin-fuses": "^7.5.0",
     "@electron-forge/plugin-webpack": "^7.5.0",
     "@electron/fuses": "^1.8.0",
+    "@types/bcrypt": "^5.0.2",
     "@types/pg": "^8.11.10",
     "@types/uuid": "^10.0.0",
     "@typescript-eslint/eslint-plugin": "^5.0.0",
@@ -41,6 +42,7 @@
   "author": "jose_bo_silva",
   "license": "MIT",
   "dependencies": {
+    "bcrypt": "^5.1.1",
     "electron-squirrel-startup": "^1.0.1",
     "pg": "^8.13.1",
     "uuid": "^11.0.2"

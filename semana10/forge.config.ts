@@ -30,7 +30,7 @@ const config: ForgeConfig = {
             js: './src/renderer.ts',
             name: 'main_window',
             preload: {
-              js: './src/preload.ts',
+              js: './src/preload.ts'
             },
           },
           {
@@ -41,6 +41,14 @@ const config: ForgeConfig = {
               js: './src/preload.ts'
             },
           },
+          {
+            html: './src/login/login.html',
+            js: './src/login/renderer.ts',
+            name: 'login',
+            preload: {
+              js: './src/preload.ts'
+            },
+          }
         ],
       },
     }),

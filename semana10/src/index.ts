@@ -64,6 +64,10 @@ ipcMain.handle('deletarVeiculo', async (_: any, id: String) => {
   await new VeiculoRepository().delete(id);
 })
 
+ipcMain.handle('createusuario', async (_: any, id: string) => {
+  
+})
+
 ipcMain.on("changescreen", (_: any, id: String) => {
   mainWindow.loadURL('http://localhost:3000/detalhes')
 })
