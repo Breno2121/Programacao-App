@@ -10,7 +10,7 @@ contextBridge.exposeInMainWorld('bancoAPI', {
     deletarVeiculo: async (id: String) => await ipcRenderer.invoke('deletarVeiculo', id),
     irpagdetalhes: (id: String) => ipcRenderer.send("changescreen"),
     irpaghome: () => ipcRenderer.send("change-screen-home"),
-    createusuario: async (usuario) => await ipcRenderer.invoke('createusuario', usuario),
-    findbyEmail: async (email:)
+    // createusuario: async (usuario) => await ipcRenderer.invoke('createusuario', usuario),
+    // findbyEmail: async (email:)
 })
 
